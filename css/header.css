@@ -1,0 +1,116 @@
+/*header-content*/
+    .header-logo{
+        float: left;
+        margin-left: 20px;
+    }
+    .header-logo::before{
+        content: '';
+        float: left;
+        height: 62px;
+        width: 50px;
+        position: absolute;
+        top: 44px;
+        vertical-align: middle;
+        background: url('./pic/icon.png');
+        background-repeat: no-repeat;
+    }
+    .header-logo::after{
+        content: 'BLOG+';
+        padding-left: 55px;
+        font-size: 48px;
+        line-height: 150px;
+        font-weight: bold;
+        font-style: italic;
+    }
+/*nav*/
+    nav{
+        float: left;
+        margin: 65px 55px;
+    }
+    .nav{
+        font-size: 20px;
+        font-weight: normal;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    .nav a{
+        display: block;
+        text-decoration: none;
+        
+    }
+    .nav-li{
+        float: left;
+        padding: 0 20px;
+        position: relative;
+    }
+    .nav-li a{
+        text-decoration: none;
+        color: #000;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .nav-sub{
+        display: none;
+        position: absolute;
+        top: 100%;
+        border-color: #fff;
+        border-radius: 0 5px 5px 5px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+        list-style: none;
+        width: 187px;
+        left: 0;
+        padding: 0 0 0 20px;
+        margin: 0;
+    }
+    .nav-li:hover{
+        background: #fff;
+    }
+    .nav-li:hover::before{
+        content: '';
+        position: absolute;
+        border-left: 2px solid #000;
+        height: 20px;
+        left: 0;
+        top: 5px;
+        
+    }
+    .nav-li:hover::after{
+        content: '';
+        position: absolute;
+        border-right: 2px solid #000;
+        height: 20px;
+        right: 0;
+        top: 5px;
+    }
+    .nav-li:hover .nav-sub{
+        display: block;
+        background: #fff;
+    }
+    .nav-sub__li a{
+        text-decoration: none;
+        color: #000;
+        font-size: 20px;
+        font-weight: bold;
+    }
+/*btn*/
+    .btn{
+        float: right;
+        margin: 44px 0;
+        margin-right: 20px;
+        background: #fff;
+        color: #000;
+        border: 1px;
+        padding: 20px 35px;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .btn:hover{
+        color: #cfe5ef;
+    }
+    .bth::before{
+        content: '';
+        display: block;
+        clear: both;
+    }
