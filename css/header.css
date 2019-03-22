@@ -6,6 +6,7 @@
         margin: 0 auto;
         background: #cfe5ef;
         box-sizing: border-box;
+        color: #333;
     }
     .header__content{
         margin: 0 20px;
@@ -20,6 +21,11 @@
         font-style: italic;
         position: absolute;
         top: 44px;
+        
+    }
+    .header-logo a{
+        color: #333;
+        text-decoration: none;
     }
     .header-logo span{
         height: 62px;
@@ -45,7 +51,13 @@
         cursor: pointer;
     }
     .btn:hover{
-        opacity: 0.7;
+        color: #f6f5f9;
+        background: #52359d;
+    }
+    .btn:active{
+        color: #999;
+        background: #333;
+        
     }
     .bth::before{
         content: '';
@@ -98,6 +110,15 @@
     }
     .nav-li:hover{
         background: #fff;
+    }
+    .nav-li a:hover{
+        color: #52359d;
+        text-decoration: underline;
+        
+    }
+    .nav-li a:active{
+        color: #333333;
+        text-decoration: underline;
     }
     .nav-li:hover::before{
         content: '';
