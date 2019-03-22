@@ -1,44 +1,10 @@
 body{
     padding: 0;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
-
-.wrapper, input, nav, ul{
-   font-family: 'Roboto', sans-serif;
-}
-header{
-    background: #cfe5ef;
-    height: 150px;
-    box-sizing: border-box;
-    
-}
-.header-content{
-        width: 100%;
-        max-width: 1292px;
-        margin: 0 auto;
-        background: #cfe5ef;
-}
-main{
-    background-color: #fff; 
-    margin: 0 20px;
-}
-.main-content{
-    width: 100%;
-    max-width: 1252px;
-    margin: 0 auto;
-    padding:0;    
-}
-hr{
-    height: 6px;
-    max-width: 200px;
-    background: #c3c3c3;
-    margin: 0 auto 30px 0;
-    border: 0;
-}
-
-span{
-    font-size: 24px;
-    font-weight: bold;
-    font-weight: bold;
-    margin-bottom: 8px;
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
 }

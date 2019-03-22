@@ -1,183 +1,254 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <title>k17-homework08</title>
     <meta name="description" content="Lorem ipsum dolor.">
     <meta name="keywords" content="Lorem ipsum dolor.">
     <meta name="author" content="ruslan lozhkin">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500i,700&amp;subset=cyrillic-ext,latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="fonts/font.css">
+    <link rel="stylesheet" href="css/module-grid.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/module-grid.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div class="wrapper">
-   <header>
-        <div class="header-content">
-            <div class="header-logo"></div>
-            <nav><!-- site menu -->
-               <ul class="nav">
-                   <li class="nav-li"><a href="#">РУБРИКИ</a>
-                       <ul class="nav-sub">
-                           <li class="nav-sub__li">       <a href="#" >
-                                   Lorem ipsum 1
-                               </a>
-                           </li>
-                           <li class="nav-sub__li">
-                               <a href="#" >
-                                   Lorem ipsum 2
-                               </a>
-                           </li>
-                           <li class="nav-sub__li">
-                               <a href="#" >
-                                   Lorem ipsum 3
-                               </a>
-                           </li>
-                           <li class="nav-sub__li">
-                               <a href="#" >
-                                   Lorem ipsum 4
-                               </a>
-                           </li>
-                       </ul>
-                   </li><!--Конец Рубрики-->
-                   <li class="nav-li"><a href="">ГАЛЕРЕЯ</a>
-                       <ul class="nav-sub">
-                           <li class="nav-sub__li">       <a href="#" >
-                                   Lorem ipsum 1
-                               </a>
-                           </li>
-                           <li class="nav-sub__li">
-                               <a href="#" >
-                                   Lorem ipsum 2
-                               </a>
-                           </li>
-                           <li class="nav-sub__li">
-                               <a href="#" >
-                                   Lorem ipsum 3
-                               </a>
-                           </li>
-                           <li class="nav-sub__li">
-                               <a href="#" >
-                                   Lorem ipsum 4
-                               </a>
-                           </li>
-                       </ul>
-                   </li><!--Конец Галерея-->
-                   <li class="nav-li"><a href="">КОНТАКТЫ</a>
-                       <ul class="nav-sub">
-                           <li class="nav-sub__li">   
-                               <a href="#" >
-                                   Lorem ipsum 1
-                               </a>
-                           </li>
-                           <li class="nav-sub__li">
-                               <a href="#" >
-                                   Lorem ipsum 2
-                               </a>
-                           </li>
-                           <li class="nav-sub__li">
-                               <a href="#" >
-                                   Lorem ipsum 3
-                               </a>
-                           </li>
-                           <li class="nav-sub__li">
-                               <a href="#" >
-                                   Lorem ipsum 4
-                               </a>
-                           </li>
-                       </ul>
-                   </li><!--Конец контакты-->
-               </ul>
-            </nav> <!-- end site menu -->
-            <input class="btn" type="button" value="ВХОД" >
-        </div><!--end header-content-->
-  </header>
-  <main>
+   <div class="header clearfix">
+       <div class="header__content">
+        <div class="header-logo">
+            <img src="css/pic/icon.png" alt>
+            <span>BLOG+</span>
+        </div>
+    <!-- site menu -->
+        <nav>
+           <ul class="nav">
+               <li class="nav-li"><a href="#">РУБРИКИ</a>
+                   <ul class="nav-sub">
+                       <li class="nav-sub__li">       
+                           <a href="#" >
+                               Lorem ipsum 1
+                           </a>
+                       </li>
+                       <li class="nav-sub__li">
+                           <a href="#" >
+                               Lorem ipsum 2
+                           </a>
+                       </li>
+                       <li class="nav-sub__li">
+                           <a href="#" >
+                               Lorem ipsum 3
+                           </a>
+                       </li>
+                       <li class="nav-sub__li">
+                           <a href="#" >
+                               Lorem ipsum 4
+                           </a>
+                       </li>
+                   </ul>
+               </li><!--Конец Рубрики-->
+               <li class="nav-li"><a href="">ГАЛЕРЕЯ</a>
+                   <ul class="nav-sub">
+                       <li class="nav-sub__li">       
+                           <a href="#" >
+                               Lorem ipsum 1
+                           </a>
+                       </li>
+                       <li class="nav-sub__li">
+                           <a href="#" >
+                               Lorem ipsum 2
+                           </a>
+                       </li>
+                       <li class="nav-sub__li">
+                           <a href="#" >
+                               Lorem ipsum 3
+                           </a>
+                       </li>
+                       <li class="nav-sub__li">
+                           <a href="#" >
+                               Lorem ipsum 4
+                           </a>
+                       </li>
+                   </ul>
+               </li><!--Конец Галерея-->
+               <li class="nav-li"><a href="">КОНТАКТЫ</a>
+                   <ul class="nav-sub">
+                       <li class="nav-sub__li">   
+                           <a href="#" >
+                               Lorem ipsum 1
+                           </a>
+                       </li>
+                       <li class="nav-sub__li">
+                           <a href="#" >
+                               Lorem ipsum 2
+                           </a>
+                       </li>
+                       <li class="nav-sub__li">
+                           <a href="#" >
+                               Lorem ipsum 3
+                           </a>
+                       </li>
+                       <li class="nav-sub__li">
+                           <a href="#" >
+                               Lorem ipsum 4
+                           </a>
+                       </li>
+                   </ul>
+               </li><!--Конец контакты-->
+           </ul>
+        </nav> 
+    <!-- end site menu -->
+        <input class="btn" type="button" value="ВХОД" >
+    </div>
+  </div>
     <div class="main-content">
-        <div class="grids">
-            <div class="module-grid grids-without-spaces"> <!-- without spaces grids -->
-               <div class="grids-title">
+    
+    <!-- without spaces grids -->
+               <div class="title">
                    <span>Сетка флоатов (12 позиций)</span>
                    <hr>
                </div>
-               <div class="module-grid__cell-11"><div class="grid-cell"></div>
+               <div class="module-grid">
+                  <div class="module-grid__cell-11">
+                      <div class="grid-cell"> 
+                  </div>
+                   </div>
+                   <div class="module-grid__cell-1">
+                       <div class="grid-cell">
+                   </div>
+                   </div>
                </div>
-               <div class="module-grid__cell-1"><div class="grid-cell"></div>
+               <div class="module-grid">
+                   <div class="module-grid__cell-10">
+                      <div class="grid-cell">
+                  </div>
+                   </div>
+                   <div class="module-grid__cell-2">
+                       <div class="grid-cell">
+                   </div>
+                   </div>
                </div>
-               <div class="module-grid__cell-10"><div class="grid-cell"></div>
+               <div class="module-grid">
+                  <div class="module-grid__cell-9">
+                      <div class="grid-cell">
+                      </div>
+                   </div>
+                   <div class="module-grid__cell-3">
+                       <div class="grid-cell">
+                       </div>
+                   </div>
                </div>
-               <div class="module-grid__cell-2"><div class="grid-cell"></div>
+               <div class="module-grid">
+                  <div class="module-grid__cell-8">
+                      <div class="grid-cell">
+                      </div>
+                   </div>
+                   <div class="module-grid__cell-4">
+                       <div class="grid-cell">
+                       </div>
+                   </div>
                </div>
-               <div class="module-grid__cell-9"><div class="grid-cell"></div>
+               <div class="module-grid">
+                  <div class="module-grid__cell-7">
+                      <div class="grid-cell">
+                      </div>
+                   </div>
+                   <div class="module-grid__cell-5">
+                       <div class="grid-cell">
+                       </div>
+                   </div>
                </div>
-               <div class="module-grid__cell-3"><div class="grid-cell"></div>
+               <div class="module-grid">
+                  <div class="module-grid__cell-6">
+                      <div class="grid-cell">
+                      </div>
+                   </div>
+                   <div class="module-grid__cell-6">
+                       <div class="grid-cell">
+                       </div>
+                   </div>
                </div>
-               <div class="module-grid__cell-8"><div class="grid-cell"></div>
-               </div>
-               <div class="module-grid__cell-4"><div class="grid-cell"></div>
-               </div>
-               <div class="module-grid__cell-7"><div class="grid-cell"></div>
-               </div>
-               <div class="module-grid__cell-5"><div class="grid-cell"></div>
-               </div>
-               <div class="module-grid__cell-6"><div class="grid-cell"></div>
-               </div>
-               <div class="module-grid__cell-6"><div class="grid-cell"></div>
-               </div>
-            </div><!--end grids-without-spaces-->
-            <div class="module-grid module-grid--gutters grids-with-spaces"> <!-- grids with spaces -->
-               <div class="grids-title">
+            
+            
+    <!--end grids without spaces-->
+               <div class="title">
                    <span>Сетка флоатов, с отступами</span>
                    <hr>
                </div>
-               <div class="module-grid__cell-11"><div class="grid-cell"></div>
+               
+    <!-- grids with spaces -->
+              <div class="module-grid module-grid--gutters">
+                  <div class="module-grid__cell-11">
+                      <div class="grid-cell"> 
+                      </div>
+                   </div>
+                   <div class="module-grid__cell-1">
+                       <div class="grid-cell">
+                       </div>
+                   </div>
                </div>
-               <div class="module-grid--gutters"></div>
-               <div class="module-grid__cell-1"><div class="grid-cell"></div>
+               <div class="module-grid module-grid--gutters">
+                  <div class="module-grid__cell-10">
+                      <div class="grid-cell">
+                      </div>
+                   </div>
+                   <div class="module-grid__cell-2">
+                       <div class="grid-cell">
+                       </div>
+                   </div>
                </div>
-               <div class="module-grid--gutters"></div>
-               <div class="module-grid__cell-10"><div class="grid-cell"></div>
+               <div class="module-grid module-grid--gutters">
+                  <div class="module-grid__cell-9">
+                      <div class="grid-cell">
+                      </div>
+                   </div>
+                   <div class="module-grid__cell-3">
+                       <div class="grid-cell">
+                       </div>
+                   </div>
                </div>
-               <div class="module-grid--gutters"></div>
-               <div class="module-grid__cell-2"><div class="grid-cell"></div>
+               <div class="module-grid module-grid--gutters">
+                  <div class="module-grid__cell-8">
+                      <div class="grid-cell">
+                      </div>
+                   </div>
+                   <div class="module-grid__cell-4">
+                       <div class="grid-cell">
+                       </div>
+                   </div>
                </div>
-               <div class="module-grid--gutters"></div>
-               <div class="module-grid__cell-9"><div class="grid-cell"></div>
+               <div class="module-grid module-grid--gutters">
+                  <div class="module-grid__cell-7">
+                      <div class="grid-cell">
+                      </div>
+                   </div>
+                   <div class="module-grid__cell-5">
+                       <div class="grid-cell">
+                       </div>
+                   </div>
                </div>
-               <div class="module-grid--gutters"></div>
-               <div class="module-grid__cell-3"><div class="grid-cell"></div>
+               <div class="module-grid module-grid--gutters">
+                  <div class="module-grid__cell-6">
+                      <div class="grid-cell">
+                      </div>
+                   </div>
+                   <div class="module-grid__cell-6">
+                       <div class="grid-cell">
+                       </div>
+                   </div>
                </div>
-               <div class="module-grid--gutters"></div>
-               <div class="module-grid__cell-8"><div class="grid-cell"></div>
-               </div>
-               <div class="module-grid--gutters"></div>
-               <div class="module-grid__cell-4"><div class="grid-cell"></div>
-               </div>
-               <div class="module-grid--gutters"></div>
-               <div class="module-grid__cell-7"><div class="grid-cell"></div>
-               </div>
-               <div class="module-grid--gutters"></div>
-               <div class="module-grid__cell-5"><div class="grid-cell"></div>
-               </div>
-               <div class="module-grid--gutters"></div>
-               <div class="module-grid__cell-6"><div class="grid-cell"></div>
-               </div>
-               <div class="module-grid--gutters"></div>
-               <div class="module-grid__cell-6"><div class="grid-cell"></div>
-               </div>
-            </div><!--end grids-with-spaces-->
-        </div> <!--end grids-->
+    <!--end grids-with-spaces--><!--end grids-->
+       
+    <!--reviews-->
         <div class="reviews">
-           <div class="grids-title">
+           <div class="title">
                 <span>Отзывы посетителей нашего сайта</span>
                 <hr>
            </div>
              <div class="review">
                 <div class="review-ava">
-                    <img src="img/no-avatar-default%20copy.png" alt>
+                    <a href="#" target="_blank">
+                        <img src="img/no-avatar-default%20copy.png" alt>
+                    </a>
                 </div>
                 <div class="review-details">
                     <div class="review-author">
@@ -185,7 +256,7 @@
                     </div>
                     <div class="review-date">
                        <img src="img/calendar.png" alt>
-                       <time>11 февраля 2019</time>
+                       <time datetime="11.02.2019">11 февраля 2019</time>
                     </div>   
                     <div class="review-content">
                         <p>
@@ -196,7 +267,9 @@
              </div>
                 <div class="review">
                 <div class="review-ava">
-                    <img src="img/no-avatar-default%20copy.png" alt>
+                    <a href="#" target="_blank">
+                        <img src="img/no-avatar-default%20copy.png" alt>
+                    </a>
                 </div>
                 <div class="review-details">
                     <div class="review-author">
@@ -204,7 +277,7 @@
                     </div>
                     <div class="review-date">
                        <img src="img/calendar.png" alt>
-                       <time>11 февраля 2019</time>
+                       <time datetime="11.02.2019">11 февраля 2019</time>
                     </div>   
                     <div class="review-content">
                         <p>
@@ -215,7 +288,9 @@
              </div>
              <div class="review">
                 <div class="review-ava">
-                    <img src="img/no-avatar-default%20copy.png" alt>
+                    <a href="#" target="_blank">
+                        <img src="img/no-avatar-default%20copy.png" alt>
+                    </a>
                 </div>
                 <div class="review-details">
                     <div class="review-author">
@@ -223,7 +298,7 @@
                     </div>
                     <div class="review-date">
                        <img src="img/calendar.png" alt>
-                       <time>11 февраля 2019</time>
+                       <time datetime="11.02.2019">11 февраля 2019</time>
                     </div>   
                     <div class="review-content">
                         <p>
@@ -234,12 +309,16 @@
              </div>
         </div> <!--end reviews-->
         <div class="gallery">
-            <div class="grids-title">
+            <div class="title">
                 <span>Галерея</span>
                 <hr>
             </div>
             <div class="gallery-thumb">
-                <div class="gallery-thumb__noimg"><img src="img/no-image.png" alt></div>
+                <div class="gallery-thumb__noimg">
+                    <a href="#" target="_blank">
+                        <img src="img/no-image.png" alt>
+                    </a>
+                </div>
                 <div class="gallery-thumb__title">
                 	  <p>
                 	  	Lorem ipsum dolor sit amet, consectetur.
@@ -248,7 +327,11 @@
                 </div>
             </div>
             <div class="gallery-thumb">
-                <div class="gallery-thumb__noimg"><img src="img/no-image.png" alt></div>
+                <div class="gallery-thumb__noimg">
+                    <a href="#" target="_blank">
+                        <img src="img/no-image.png" alt>
+                    </a>
+                </div>
                 <div class="gallery-thumb__title">
                 	  <p>
                 	  	Lorem ipsum dolor sit amet, consectetur.
@@ -257,7 +340,11 @@
                 </div>
             </div>
             <div class="gallery-thumb">
-                <div class="gallery-thumb__noimg"><img src="img/no-image.png" alt></div>
+                <div class="gallery-thumb__noimg">
+                    <a href="#" target="_blank">
+                        <img src="img/no-image.png" alt>
+                    </a>
+                </div>
                 <div class="gallery-thumb__title">
                 	  <p>
                 	  	Lorem ipsum dolor sit amet, consectetur.
@@ -266,7 +353,11 @@
                 </div>
             </div>
             <div class="gallery-thumb">
-                <div class="gallery-thumb__noimg"><img src="img/no-image.png" alt></div>
+                <div class="gallery-thumb__noimg">
+                    <a href="#" target="_blank">
+                        <img src="img/no-image.png" alt>
+                    </a>
+                </div>
                 <div class="gallery-thumb__title">
                 	  <p>
                 	  	Lorem ipsum dolor sit amet, consectetur.
@@ -276,7 +367,11 @@
             </div>
             <div class="clear"></div>
             <div class="gallery-thumb">
-                <div class="gallery-thumb__noimg"><img src="img/no-image.png" alt></div>
+                <div class="gallery-thumb__noimg">
+                    <a href="#" target="_blank">
+                        <img src="img/no-image.png" alt>
+                    </a>
+                </div>
                 <div class="gallery-thumb__title">
                 	  <p>
                 	  	Lorem ipsum dolor sit amet, consectetur.
@@ -285,7 +380,11 @@
                 </div>            
             </div>
             <div class="gallery-thumb">
-                <div class="gallery-thumb__noimg"><img src="img/no-image.png" alt></div>
+                <div class="gallery-thumb__noimg">
+                    <a href="#" target="_blank">
+                        <img src="img/no-image.png" alt>
+                    </a>
+                </div>
                 <div class="gallery-thumb__title">
                 	  <p>
                 	  	Lorem ipsum dolor sit amet, consectetur.
@@ -294,7 +393,11 @@
                 </div>
             </div>
             <div class="gallery-thumb">
-                <div class="gallery-thumb__noimg"><img src="img/no-image.png" alt></div>
+                <div class="gallery-thumb__noimg">
+                    <a href="#" target="_blank">
+                        <img src="img/no-image.png" alt>
+                    </a>
+                </div>
                 <div class="gallery-thumb__title">
                 	  <p>
                 	  	Lorem ipsum dolor sit amet, consectetur.
@@ -303,7 +406,11 @@
                 </div>
             </div>
             <div class="gallery-thumb">
-                <div class="gallery-thumb__noimg"><img src="img/no-image.png" alt></div>
+                <div class="gallery-thumb__noimg">
+                    <a href="#" target="_blank">
+                        <img src="img/no-image.png" alt>
+                    </a>
+                </div>
                 <div class="gallery-thumb__title">
                 	  <p>
                 	  	Lorem ipsum dolor sit amet, consectetur.
@@ -314,7 +421,5 @@
             <div class="clear"></div>
         </div><!--end gallery-->
     </div>
-  </main>
-</div>
 </body>
 </html>

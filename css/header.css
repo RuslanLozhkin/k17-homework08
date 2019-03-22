@@ -1,31 +1,63 @@
-/*header-content*/
+/*header*/
+    .header{
+        background: #cfe5ef;
+        height: 150px;
+        max-width: 100%;
+        margin: 0 auto;
+        background: #cfe5ef;
+        box-sizing: border-box;
+    }
+    .header__content{
+        margin: 0 20px;
+        max-width: 1292px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+    }
     .header-logo{
         float: left;
-        margin-left: 20px;
-    }
-    .header-logo::before{
-        content: '';
-        float: left;
         height: 62px;
-        width: 50px;
+        font-style: italic;
         position: absolute;
         top: 44px;
-        vertical-align: middle;
-        background: url('./pic/icon.png');
-        background-repeat: no-repeat;
     }
-    .header-logo::after{
-        content: 'BLOG+';
-        padding-left: 55px;
-        font-size: 48px;
-        line-height: 150px;
+    .header-logo span{
+        height: 62px;
+        font-size: 36px;
+        position: absolute;
+        top: 7px;
+        left: 100%;
+        padding-left: 6px;
+    }
+/*btn*/
+    .btn{
+        float: right;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        margin-top: 44px;
+        background: #fff;
+        color: #000;
+        border: 1px;
+        padding: 20px 35px;
+        font-size: 20px;
         font-weight: bold;
-        font-style: italic;
+        cursor: pointer;
+    }
+    .btn:hover{
+        opacity: 0.7;
+    }
+    .bth::before{
+        content: '';
+        display: block;
+        clear: both;
     }
 /*nav*/
     nav{
         float: left;
-        margin: 65px 55px;
+        margin-left: 215px;
+        position: absolute;
+        top: 62px;
     }
     .nav{
         font-size: 20px;
@@ -42,6 +74,7 @@
     .nav-li{
         float: left;
         padding: 0 20px;
+        line-height: 32px;
         position: relative;
     }
     .nav-li a{
@@ -92,25 +125,4 @@
         color: #000;
         font-size: 20px;
         font-weight: bold;
-    }
-/*btn*/
-    .btn{
-        float: right;
-        margin: 44px 0;
-        margin-right: 20px;
-        background: #fff;
-        color: #000;
-        border: 1px;
-        padding: 20px 35px;
-        font-size: 20px;
-        font-weight: bold;
-        cursor: pointer;
-    }
-    .btn:hover{
-        color: #cfe5ef;
-    }
-    .bth::before{
-        content: '';
-        display: block;
-        clear: both;
     }
